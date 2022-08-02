@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
         - name: flask-app
-          image: xiaopeng163/flask-redis
+          image: samaitc/flask-redis
           ports:
             - containerPort: 5000
           env:
